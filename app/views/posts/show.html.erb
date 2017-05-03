@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @post.summary %>
+</p>
+
+<p>
+  <strong>Resource type:</strong>
+  <%= @post.resource_type %>
+</p>
+
+<p>
+  <strong>File url:</strong>
+  <%= @post.file_url %>
+</p>
+
+<p>
+  <strong>Approoved:</strong>
+  <%= @post.approoved %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @post.user %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @post.subject %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

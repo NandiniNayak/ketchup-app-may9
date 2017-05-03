@@ -1,0 +1,12 @@
+<%= simple_form_for(@subject) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :year , collection: [7,8,9,10,11,12] %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

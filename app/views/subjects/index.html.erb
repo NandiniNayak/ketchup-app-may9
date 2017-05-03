@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Subjects for Year <%= params[:year] %></h1>
+
+<ul>
+<% @subjects.each do |subject| %>
+  <div class="col-md-4">
+    <a href= "<%= subject_path(subject) %>">
+      <div class="subject-square">
+        <h1 class="subject-text"><%= subject.name %></h1>
+      </div>
+    </a>
+  </div>
+<% end %> 

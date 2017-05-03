@@ -1,0 +1,81 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    font-family: 'Pacifico', cursive;
+
+   
+}
+h1{
+    font-family: 'Shadows Into Light';
+}
+
+.navbar-default {
+    background-color: purple;
+    border-color: #c802f5;
+    margin-bottom: 0px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#side-bar{
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color:yellow;
+    border: 3px solid white;
+}
+
+#main-bar{
+ background-color:#9033af; 
+ width: 100%;
+ height: 100%;
+ border: 3px solid white;
+}
+    
+.glyphicon.glyphicon-off { 
+font-size: 1.5em;
+padding-top: 10px;
+}
+
+.glyphicon.glyphicon-user{
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+
+.glyphicon.glyphicon-book{
+    font-size: 1.4em;
+    padding-top: 9px;
+}
+
+.subject-square {
+    height: 150px;
+    width: 100%;
+   background-color:#02914a;
+   border-radius: 4px;
+   border:5px solid black;
+   margin-bottom: 20px;
+    
+}
+
+.subject-square:hover {
+    background-color:#9033af ;
+}
+
+.subject-text {
+    color:black;
+    padding-top:40px;
+    // padding-left:850px;
+    text-align: center;
+
+    
+}
+.col-md-4 {
+    padding-right: 20px;
+}

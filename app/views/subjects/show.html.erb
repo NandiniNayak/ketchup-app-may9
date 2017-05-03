@@ -1,0 +1,10 @@
+<h1> Post for Year 7 </h1>
+<% @posts.each do |post| %>
+  <li><%= post.title %> </li>
+  <li><%= post.summary %></li>
+  <li><%= post.resource_type %></li>
+  <li><%= post.file_url %></li>
+  <li><%= link_to "edit" , edit_post_path(post) %> </li>
+  <li><%= link_to "Delete" , post ,method: :delete , data: {confirm: 'Are you sure?' } %></li>
+<% end %>
+<%= link_to "Add Post",new_post_path(subject_id: @subject.id),class: 'btn btn-primary' %>
