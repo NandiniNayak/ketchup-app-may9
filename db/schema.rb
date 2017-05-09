@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170323010326) do
+ActiveRecord::Schema.define(version: 20170504021557) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20170323010326) do
     t.integer  "subject_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string   "image"
   end
 
   add_index "posts", ["subject_id"], name: "index_posts_on_subject_id"
